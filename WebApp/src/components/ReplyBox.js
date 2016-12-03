@@ -18,6 +18,8 @@ export class ReplyBox extends React.Component {
     render () {
         return (
             <div>
+              <input value = {this.state.text} id="add"onChange={this.updateText} />
+              <button onClick= {this.sendReply}> sendReply  </button>
 
                 {/* Exercise 2: Render a text input and a button */}
 
