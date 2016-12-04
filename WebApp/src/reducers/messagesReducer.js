@@ -11,9 +11,9 @@ export default createReducer(initialState, {
     }
 })
 
-/**
- * Message shape: {
- *   author: {
+/*Message shape: {
+
+ /*   author: {
  *     name: author's full name (string),
  *     picture: author's profile image source (string),
  *     userId: author unique ID (string)
